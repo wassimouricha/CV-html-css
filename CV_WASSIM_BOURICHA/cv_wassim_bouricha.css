@@ -1,0 +1,147 @@
+html {
+    background: #e6e9e9;
+}
+
+body {
+    background: #ffffff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #545454;
+    font-family: 'Koh Santepheap', cursive;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px 30px 20px 30px;
+}
+
+h2, h3, h4, h5, h6 {
+    color: #3276F5;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 1;
+    color: #D12200;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 200;
+    font-style: italic; 
+    margin-top: 20px;
+    line-height: 1;
+}
+
+h3 {
+    margin-top : 50px;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 16px;
+}
+
+a {
+    color: #0011FF;
+}
+
+b, strong {
+    font-weight: 600;
+}
+
+img.photo_wassim {
+    width: 20%;
+    border: 2px solid #000000;
+    border-radius: 2px;
+    display: block;
+    margin: 0 auto;
+}
+@media screen and (max-width: 600px)
+{
+    body
+    {
+        color: red; 
+        background-color: black;
+        font-size: 1.2em;
+    }
+    h1 {text-align: center
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 1;
+    color: #D12200;
+    }
+    h2 {text-align: center
+    font-size: 15px;
+    font-weight: 80;
+    font-style: italic; 
+    margin-top: 20px;
+    line-height: 1;
+}
+    img.photo_wassim {
+    width: 30%;
+    border: 2px solid #000000;
+    border-radius: 2px;
+    display: block;
+    margin: 0 auto;
+}
+}
+@media screen and (min-width: 600px)
+{
+    h1 { text-align: center
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 1;
+    color: #D12200;
+}
+
+h2 { text-align: center
+    font-size: 40px;
+    font-weight: 200;
+    font-style: italic; 
+    margin-top: 20px;
+    line-height: 1;
+}
+h3 {text-align: center
+    margin-top : 50px;
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+    h4 {text-align: center
+    font-size: 16px;
+    font-weight: 500;
+}
+    img.photo_wassim {
+    width: 40%;
+    border: 2px solid #000000;
+    border-radius: 2px;
+    display: block;
+    margin: 0 auto;
+}
+  } 
+@media screen and (min-width: 992px)
+{
+ body
+    {
+        color: green; 
+        background-color: white;
+        font-size: 1.2em;
+    }
+  } 
+@media screen and (min-width: 1200px)
+{
+img.photo_wassim {
+    width: 70%;
+    border: 2px solid #D12200;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
+}
+  } 
